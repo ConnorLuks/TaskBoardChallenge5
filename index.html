@@ -31,39 +31,41 @@
     </div>
 
     <!-- code for making a 'modal' which can be used to add tasks !-->
-  <div class="modal" id="formModal" tabindex="-1" aria-labelledby="formModal" aria-hidden="true">
+  <div class="modal" id="formModal" tabindex="0" aria-labelledby="formModal" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title"  id="formModal">Add Task</h1>
+                <h1 class="modal-title" id="formModal">Add Task</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
             </div>
   
-              <div class="modal-body">
+            <div class="modal-body">
                 <form id="taskForm">
-                    
-                          
+                         
                         <div class="mb-2">
                             <label for="taskTitle" class="form-label">Title of Task</label>
                             <textarea class="form-control" id="taskTitle" rows="1" aria-multiline="true"></textarea>
                         </div>
+
                         <div class="mb-2">
                             <label for="taskDescription" class="form-label">Description</label>
                             <textarea class="form-control" id="taskDescription" rows="5" aria-multiline="true"></textarea>
                         </div>
+
                         <div class="mb-2">
                             <label for="taskDueDate" class="form-label">Due Date</label>
                             <input type="date" class="form-control" id="taskDueDate" required aria-required="true">
                         </div> <br>
+
                     <button type="submit" class="btn btn-success">Add Task</button>
-               </form>
+                </form>
             </div>
         </div>
     </div>
   </div>
   
 
-  <!-- Original starter code Do Not Edit-->
+  <!-- Original starter code Do Not Edit aside from script src !-->
     <div class="row swim-lanes text-center justify-content-between">
       <div class="col-12 col-lg-4 d-flex">
         <div id="to-do" class="card border-light mb-3 lane flex-grow-1">

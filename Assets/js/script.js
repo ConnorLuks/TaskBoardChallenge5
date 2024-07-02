@@ -60,6 +60,7 @@ function renderTaskList() {
     });
 }
 
+    
 // do: create a function to handle adding a new task.
 function handleAddTask(event){
     event.preventDefault();
@@ -77,12 +78,12 @@ function handleAddTask(event){
         return;
     }
 
-    taskList.push(newTask);
+     taskList.push(newTask);
     renderTaskList();
     $("#taskTitle, #taskDueDate, #taskDescription").val("");
     $("#formModal").modal("hide");
 
-}; 
+};
 
 // do: create a function to handle deleting a task
 function handleDeleteTask(event){
@@ -116,4 +117,5 @@ $(document).ready(() => {
         accept: ".task-card",
         drop: handleDrop
     });
+
 });
