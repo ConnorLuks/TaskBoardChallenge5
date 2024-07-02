@@ -27,11 +27,11 @@ https://github.com/ConnorLuks/TaskBoardChallenge5
 
 
 ## Site Screenshots
-![alt text](Develop/Assets/TaskPage1.png)
+![alt text](Assets/TaskPage1.png)
 
-![alt text](Develop/Assets/TaskPage2.png)
+![alt text](Assets/TaskPage2.png)
 
-![alt text](Develop/Assets/TaskPage3.png)
+![alt text](Assets/TaskPage3.png)
 
 ## Credits
 Connor O'Halloran
