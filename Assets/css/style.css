@@ -14,3 +14,7 @@ body {
 .task-card:hover {
   cursor: grab;
 }
+
+.task-card:active { /* added a grab cursor for when you click to move the boxes */
+  cursor: grabbing;
+}
