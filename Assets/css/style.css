@@ -8,6 +8,7 @@ body {
 }
 
 .task-card {
+  z-index: 1000; /* had to add Z index, as cards were not appearing above Completed when grabbed and moved over to. */
   margin: 0 auto;
 }
 
